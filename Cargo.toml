@@ -1,0 +1,11 @@
+[package]
+name = "kurtbuilds_regex"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "regex"
+path = "src/lib.rs"
+
+[dependencies]
+regex_inner = { version = "*" , package = "regex" }
