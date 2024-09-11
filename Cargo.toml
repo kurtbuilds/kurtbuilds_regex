@@ -10,4 +10,4 @@ name = "regex"
 path = "src/lib.rs"
 
 [dependencies]
-regex_inner = { version = "*" , package = "regex" }
+regex_inner = { version = "1" , package = "regex" }
