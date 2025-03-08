@@ -16,6 +16,7 @@ macro_rules! regex {
                 for f in $flags.chars() {
                     match f {
                         'i' => r.case_insensitive(true),
+                        'm' => r.multi_line(true),
                         _ => panic!("Invalid regex flag: {}", f),
                     };
                 }
