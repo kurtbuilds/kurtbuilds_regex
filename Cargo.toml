@@ -1,6 +1,6 @@
 [package]
 name = "kurtbuilds_regex"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Wraps the regex library to also provide macros"
 license = "MIT"
